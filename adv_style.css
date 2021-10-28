@@ -1,0 +1,481 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  position: relative;
+  font-family: sans-serif;
+}
+
+body .adv-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid lightgray;
+  height: 10vh;
+}
+
+body .adv-title h1 {
+  width: 100%;
+  margin: 20px 0px 20px 40px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #D93025;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 8vh;
+  width: 100%;
+  padding: 10px;
+}
+
+header .google-logo img {
+  width: 73px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+header nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header nav .ClickLogo {
+  margin-left: 10px;
+  margin-right: auto;
+  float: left;
+  color: lightgray;
+}
+
+header nav ul {
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+header nav ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+header nav ul .icon-link {
+  padding: 10px;
+  border-radius: 50px;
+}
+
+header nav ul .icon-link:hover {
+  background-color: lightgray;
+}
+
+header nav ul .signup-nav:hover {
+  text-decoration: none;
+}
+
+header nav ul .signup-nav button {
+  position: relative;
+  background-color: #4584ef;
+  border: none;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+}
+
+.container form {
+  position: relative;
+  margin: 40px 0px 40px 40px;
+}
+
+.container form .FindImages {
+  position: relative;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container form .narrow {
+  position: relative;
+  font-weight: 500;
+  padding: 15px 30px 0px 0px;
+}
+
+.container form .formContent {
+  border-bottom: 1px solid lightgray;
+  padding: 10px 30px 30px 0px;
+}
+
+.container form .formContent .adv_submit {
+  width: 60%;
+}
+
+.container form .formContent .adv_submit input[type=submit] {
+  margin-left: auto;
+  background-color: #4584ef;
+  color: white;
+  padding: 10px 10px;
+  font-size: 0.75rem;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container form .formContent div {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 10px 0px 0px;
+}
+
+.container form .formContent div input[type=text], .container form .formContent div input[type=radio], .container form .formContent div select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.container form .formContent div .col-10 {
+  color: gray;
+}
+
+.container form .formContent div .col-10 label {
+  color: gray;
+}
+
+.container form .formContent div .col-43 {
+  width: 43%;
+}
+
+.container form .formContent div .col-15 {
+  width: 15%;
+  margin-top: 6px;
+}
+
+.container form .formContent div .col-45 {
+  width: 45%;
+  margin-top: 6px;
+}
+
+.container form .formContent div .col-45 label {
+  width: 3000px;
+}
+
+.container form .formContent div label, .container form .formContent div a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #222222;
+}
+
+.container form .formContent div a {
+  color: blue;
+}
+
+.container form .formContent div a:hover {
+  text-decoration: underline;
+}
+
+.container .url-links {
+  position: relative;
+}
+
+.container .url-links .urls {
+  font-size: 0.80rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+
+.container .url-links .urls a {
+  padding: 0px 0px 5px 0px;
+  font-weight: 500;
+  color: blue;
+}
+
+.container .url-links .urls a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: gray;
+  font-size: 14px;
+}
+
+footer .footer-upper {
+  padding: 15px;
+  border: 1px solid lightgray;
+}
+
+footer .footer-upper p {
+  margin-left: 10px;
+}
+
+footer .footer-lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-lower a {
+  color: gray;
+}
+
+footer .footer-lower a:hover {
+  color: black;
+}
+
+footer .footer-lower ul {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+}
+
+footer .footer-lower ul li {
+  margin-right: 20px;
+}
+
+@media all and (max-width: 630px) {
+  header .google-logo img {
+    width: 70px;
+  }
+  header nav .ClickLogo {
+    font-size: 12px;
+  }
+  header nav ul {
+    padding: 5px;
+  }
+  header nav ul a {
+    margin-left: 10px;
+  }
+  header nav ul .icon-link {
+    padding: 5px;
+  }
+  header nav ul .signup-nav button {
+    font-size: 0.675rem;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 3px;
+  }
+  body .adv-title {
+    height: 10vh;
+  }
+  body .adv-title h1 {
+    margin: 10px 0px 10px 20px;
+    font-size: 1rem;
+  }
+  .container form {
+    margin: 5px 0px 5px 20px;
+  }
+  .container form .FindImages {
+    width: 70%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container form .narrow {
+    padding: 10px 10px 0px 0px;
+  }
+  .container form .formContent {
+    border-bottom: 1px solid lightgray;
+    padding: 10px 20px 20px 0px;
+  }
+  .container form .formContent .adv_submit {
+    width: 100%;
+  }
+  .container form .formContent div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 10px 10px 0px 0px;
+  }
+  .container form .formContent div input[type=text], .container form .formContent div input[type=radio], .container form .formContent div select {
+    width: 100%;
+  }
+  .container form .formContent div .col-10 {
+    display: none;
+  }
+  .container form .formContent div .col-43 {
+    width: 43%;
+  }
+  .container form .formContent div .col-15 {
+    width: 100%;
+  }
+  .container form .formContent div .col-45 {
+    width: 100%;
+  }
+  .container form .formContent div .col-45 .radioB {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container form .formContent div .col-45 label {
+    width: 70px;
+  }
+  .container form .formContent div label, .container form .formContent div a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #222222;
+  }
+  .container form .formContent div a {
+    color: blue;
+  }
+  .container form .formContent div a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    font-size: 12px;
+  }
+  footer .footer-upper {
+    padding: 10px;
+  }
+  footer .footer-upper p {
+    margin-left: 10px;
+  }
+  footer .footer-lower a {
+    color: gray;
+  }
+  footer .footer-lower ul {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  footer .footer-lower ul li {
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=adv_style.css.map */

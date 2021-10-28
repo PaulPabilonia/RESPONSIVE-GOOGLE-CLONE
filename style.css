@@ -1,0 +1,406 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+  font-family: sans-serif,monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .googlelogo {
+  margin: 20px;
+  width: 280px;
+}
+
+.container .container-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 140px;
+}
+
+.container .container-content form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .container-content form .searchbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid gainsboro;
+  height: 45px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  width: 600px;
+}
+
+.container .container-content form .searchbar:hover {
+  -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.container .container-content form .searchbar > input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
+.container .container-content form .searchbar img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container .container-content form .searchbar img:hover {
+  cursor: pointer;
+}
+
+.container .container-content form .search-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .container-content form .search-submit input[type=submit] {
+  height: 40px;
+  font-size: 14px;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: 500;
+  color: black;
+  background-color: #F2F3F4;
+}
+
+.container .container-content form .search-submit input[type=submit]:hover {
+  border: 1px solid lightgray;
+}
+
+.container .container-content .register_covid {
+  margin-top: 20px;
+  font-size: 0.870rem;
+}
+
+.container .container-content .register_covid .register-link {
+  color: blue;
+}
+
+.container .container-content .made_by {
+  font-size: 13px;
+  margin-top: 35px;
+}
+
+.container .container-content .made_by .paul-link {
+  color: blue;
+}
+
+header {
+  height: 8vh;
+}
+
+header nav {
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 15px;
+}
+
+header nav ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 0.875rem;
+}
+
+header nav ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 15px;
+}
+
+header nav ul .icon-link {
+  position: relative;
+  border: none;
+  border-radius: 50px;
+  padding: 8px;
+}
+
+header nav ul .icon-link:hover {
+  background-color: lightgray;
+}
+
+header nav ul .buttonLink:hover {
+  text-decoration: none;
+}
+
+header nav ul .buttonLink button {
+  position: relative;
+  background-color: #4584ef;
+  border: none;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: gray;
+  font-size: 14px;
+}
+
+footer .footer-upper {
+  padding: 15px;
+  border: 1px solid lightgray;
+}
+
+footer .footer-upper p {
+  margin-left: 10px;
+}
+
+footer .footer-lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-lower a {
+  color: gray;
+}
+
+footer .footer-lower ul {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+}
+
+footer .footer-lower ul li {
+  margin-right: 20px;
+}
+
+@media all and (max-width: 630px) {
+  header nav {
+    padding: 10px;
+  }
+  header nav ul {
+    font-size: 0.775rem;
+  }
+  header nav ul a {
+    margin-left: 10px;
+  }
+  header nav ul .icon-link {
+    padding: 5px;
+  }
+  header nav ul .buttonLink button {
+    font-size: 0.675rem;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 3px;
+  }
+  .googlelogo {
+    width: 180px !important;
+  }
+  .searchbar {
+    width: 90vw !important;
+    height: 38px !important;
+  }
+  .register_covid {
+    font-size: 0.670rem !important;
+  }
+  .made_by {
+    margin-top: 10px !important;
+    font-size: 10px !important;
+  }
+  .search-submit input[type=submit] {
+    height: 20px !important;
+    font-size: 10px !important;
+    padding: 5px 10px 5px 10px !important;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 12px;
+  }
+  footer div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-upper {
+    padding: 10px;
+  }
+  footer .footer-upper p {
+    margin-left: 10px;
+  }
+  footer .footer-lower {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footer-lower a {
+    color: gray;
+  }
+  footer .footer-lower ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  footer .footer-lower ul li {
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

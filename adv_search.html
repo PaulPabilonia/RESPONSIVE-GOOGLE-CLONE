@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Search</title>
+        <link rel="icon" href="images/google_logo.png">
+        <link rel="stylesheet" href="adv_style.css">
+    </head>
+    <body>
+        <header>
+            <div class="google-logo">
+                <a class ="icon-link" href="index.html"><img src="/images/google.png" alt="Google logo"></a>
+            </div>
+            <nav>
+                <div class="ClickLogo">
+                    <p>CLICK the LOGO to go back</p>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a class ="icon-link" href="#"><img src="/images/bars.png" alt="Bars"></a>
+                    </li>
+                    <li>
+                        <a class="signup-nav"href="#"><button>Sign Up</button></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="adv-title">
+            <div>
+                <h1>Advanced Image Search</h1>
+            </div>
+        </section>
+
+        <div class="container">
+            <form action="https://google.com/search" id="s1zaZb" method="GET" name ="f">
+                <input name="as_st" type="hidden" value ="y">
+                <input id="tbm_input" name="tbm" type="hidden" value="isch">
+                <input value="en-PH" name="h1" type="hidden">
+
+                <div class="formContent">
+                    <div class="row">
+                        <div class="col-15">
+                            <h1>Find images with...</h1>
+                        </div>
+                        <div class="col-43">
+                        </div>
+                        <div class="col-10">
+                            <h1>To do this in the search box.</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">all these words:</label>
+                        </div>
+                        <div class="col-45">
+                            <input id= "input1" type="text" name="q">
+                        </div>
+                        <div class="col-10">
+                            <label for="">Type the important words: winter hoarfrost</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">this exact word or phrase:</label>
+                        </div>
+                        <div class="col-45">
+                            <input id= "input1" type="text">
+                        </div>
+                        <div class="col-10">
+                            <label for="">Put exact words in quotes: "frost flower"</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">any of these words:</label>
+                        </div>
+                        <div class="col-45">
+                            <input id= "input1" type="text">
+                        </div>
+                        <div class="col-10">
+                            <label for="">Type OR between all the words you want: trees OR weeds OR grasses</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">none of these words:</label>
+                        </div>
+                        <div class="col-45">
+                            <input id= "input1" type="text">
+                        </div>
+                        <div class="col-10">
+                            <label for="">Put a minus sign just before words that you don't want: -windows</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="narrow">
+                    <h1>Then narrow your results</h1>
+                    <h1>by...</h1>
+                </div>
+
+                <div class="formContent">
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">image size:</label>
+                        </div>
+                        <div class="col-45">
+                            <select name="image Size" id="imagesSize">
+                                <option value="any size">any size</option>
+                                <option value="large">Large</option>
+                                <option value="medium">Medium</option>
+                                <option value="icon">Icon</option>
+                            </select>
+                        </div>
+                        <div class="col-10">
+                            <label for="">Find images in any size you need.</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">aspect ratio:</label>
+                        </div>
+                        <div class="col-45">
+                            <select name="aspect Ratio" id="aspectRatio">
+                                <option value="any ratio">any aspect ratio</option>
+                                <option value="">Tall</option>
+                                <option value="">Square</option>
+                                <option value="">Wide</option>
+                                <option value="">Panoramic</option>
+                            </select>
+                        </div>
+                        <div class="col-10">
+                            <label for="">Specify the shape of images.</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">colours in the image:</label>
+                        </div>
+                        <div class="col-45">
+                            <div class="radioB">
+                                <input type="radio" id="any_colour" name="colours" value="any colour">
+                                <label for="any_colour">any colour</label>
+                                <input type="radio" id="fcolor" name="colours" value="CSS">
+                                <label for="css">full color</label>
+                                <input type="radio" id="blackW" name="colours">
+                                <label for="blackW">black & white</label>
+                                <input type="radio" id="transparent" name="colours">
+                                <label for="transparent">transparent</label>
+                                <input type="radio" id="thisColour" name="colours">
+                                <label for="thisColour">this colour:</label>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <label for="">Find images in your preferred colours.</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">type of image:</label>
+                        </div>
+                        <div class="col-45">
+                            <select name="aspect type" id="aspectType">
+                                <option value="any ratio">any type</option>
+                                <option value="any ratio">Face</option>
+                                <option value="">Photo</option>
+                                <option value="">Clipart</option>
+                                <option value="">Line Drawing</option>
+                                <option value="">Animated</option>
+                            </select>
+                            
+                        </div>
+                        <div class="col-10">
+                            <label for="">Limit the kind of images that you find.</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">region:</label>
+                        </div>
+                        <div class="col-45">
+                            <select name="region" id="regions_id">
+                                <option value="">any region</option>
+                            </select>
+                        </div>
+                        <div class="col-10">
+                            <label for="">Limit the kind of images that you find.</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">site or domain:</label>
+                        </div>
+                        <div class="col-45">
+                            <input id= "sideDomain" type="text">
+                        </div>
+                        <div class="col-10">
+                            <label for="">Search one site (like sfmoma.org ) or limit your results to a domain like .edu, .org or .gov</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <a href="https://support.google.com/websearch/answer/510?">SafeSearch:</a>
+                        </div>
+                        <div class="col-45">
+                            <select name="Safe" id="safe_id">
+                                <option value="">Show explicit results</option>
+                                <option value="">Hide explicit results</option>
+                            </select>
+                        </div>
+                        <div class="col-10">
+                            <label for="">Tell <a href="https://support.google.com/websearch/answer/510?">SafeSearch</a> whether to filter sexually explicit content.</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="">file type:</label>
+                        </div>
+                        <div class="col-45">
+                            <select name="file type" id="filetype_id">
+                                <option value="">any format</option>
+                            </select>
+                        </div>
+                        <div class="col-10">
+                            <label for="">Find images in the format that you prefer.</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-15">
+                            <a href="https://support.google.com/websearch/answer/29508?">usage rights:</a>
+                        </div>
+                        <div class="col-45">
+                            <select name="usageRights" id="usageRights_id">
+                                <option value="">all</option>
+                                <option value="">Creative Common Licenses</option>
+                                <option value="">Commercial and other Licenses</option>
+                            </select>
+                        </div>
+                        <div class="col-10">
+                            <label for="">Find images that you are free to use.</label>
+                        </div>
+                    </div>
+
+                    <div class="adv_submit">
+                        <input type="submit" value="Advanced Search">
+                    </div>
+                </div>
+
+                <div class="url-links">
+                    <div class="narrow">
+                        <h1>You can also...</h1>
+                    </div>
+                    <div class="urls">
+                        <a href="https://support.google.com/websearch/answer/2466433?">Find pages that are similar to a URL</a>
+                        <a href="https://support.google.com/websearch/answer/54068?">Search pages that you've visited</a>
+                        <a href="https://support.google.com/websearch/answer/2466433?">Use operators in the search box</a>
+                        <a href="https://www.google.com.ph/preferences?hl=en-PH">Customise your search settings</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        
+        <footer>
+            <div class="footer-upper">
+                <p>Philippines</p>
+            </div>
+            <div class="footer-lower">
+                <ul class="lower-left">
+                    <li>
+                        <a href="https://support.google.com/websearch/?">Help</a>
+                    </li>
+                    <li>
+                        <a href="https://policies.google.com/privacy">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="https://policies.google.com/terms?">Terms</a>
+                    </li>
+                </ul>
+            </div> 
+        </footer>
+        
+    </body>
+
+</html>
